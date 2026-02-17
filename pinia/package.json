@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-pinia-sample",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^3.7.0",
+    "pinia": "^2.1.0",
+    "@pinia/nuxt": "^0.5.0",
+    "pinia-plugin-persistedstate": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "@types/node": "^20.0.0"
+  }
+}

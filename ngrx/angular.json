@@ -1,0 +1,31 @@
+{
+  "$schema": "https://angular.io/config/schema.json",
+  "version": 1,
+  "projects": {
+    "analog-ngrx-sample": {
+      "projectType": "application",
+      "root": "src",
+      "sourceRoot": "src",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/analog-ngrx-sample",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "tsConfig": "tsconfig.json",
+            "assets": [],
+            "styles": ["src/styles.css"]
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "analog-ngrx-sample:build"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "analog-ngrx-sample"
+}
